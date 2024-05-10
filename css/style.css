@@ -910,6 +910,7 @@ a.brand:focus{
 
 .menu-list li a{
   color: #999999;
+  font-size: 20px;
 }
 
 .menu-list .active > a,
@@ -924,7 +925,7 @@ a.brand:focus{
 }
 
 .menu-list > li{
-  margin-top: 2.7rem;
+  margin-top: 1.7rem;
 }
 
 .menu-list > li:first-child{
