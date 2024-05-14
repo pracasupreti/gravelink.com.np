@@ -154,7 +154,7 @@
                 </div>
               </div>
               <div class="col-md-9">
-                <div class="text-display-1 align"> <p> <strong class="text-dark">Gravure Link Nepal Pvt. Ltd. </strong> A leader in the printing sector and producing Rotogravure Electronic Printing Cylinders of the highest caliber. We serve many renowned companies around the country by offering specialized, precised, long-lasting, and artistically exceptional printing cylinders, ensuring a unique identity for brands. With 13 years of experience, we have established ourselves as market leaders, and our cylinders are among the most on-demand items in the flexi-printing manufacturing industry.
+                <div class="text-display-1 align"> <p> <strong class="text-dark">Gravure Link Nepal Pvt. Ltd. </strong> A leader in the printing sector and producing Rotogravure Electronic Printing Cylinders of the highest caliber. We serve many renowned companies around the country by offering specialized, precised, long-lasting, and artistically exceptional printing cylinders, ensuring a unique identity for brands. With <span id="yearcount"></span> years of experience, we have established ourselves as market leaders, and our cylinders are among the most on-demand items in the flexi-printing manufacturing industry.
 
                 With all the engraving facilities under a single roof, we are the largest manufacturer of rotogravure cylinders. We offer the cutting-edge technology.Strategic location, enabling ease of reach and transportation.</p>
                 <p> Established ourselves as a quality cylinder manufacturer, competing magnificently with electronically engraved cylinders in terms of printing quality under the brand name "Gravure Link Nepal Pvt. Ltd.," a renowned company in Nepal, producing the finest quality gravure.
@@ -165,6 +165,13 @@
             </div>
           </div>
         </section>
+        <script>
+          // counting number of "years expering working"
+          let currentYear = new Date().getFullYear();
+          let years = currentYear - 2005;
+          let countElement = document.getElementById("yearcount");
+          countElement.innerHTML = + years;
+        </script>
         <section class="section bg-dots">
           <div class="container">
             <div class="row">
@@ -184,7 +191,7 @@
                   <div class="col-service col-sm-6 col-lg-4">
                     <span class="text-dark icon-medium icon-paint-roller"></span>
                     <h4>Professionalism</h4>
-                    <p> Conduct, aims, or qualities that characterize or mark a profession or a professional person"; and it defines a profession as "a calling requiring specialized knowledge and often long and intensive academic preparation".</p>
+                    <p> Conduct, aims, or qualities that characterize or mark a profession or a professional person and it defines a profession as "a calling requiring specialized knowledge and often long and intensive academic preparation".</p>
                   </div>
                   <div class="clearfix visible-sm visible-md"></div>
                   <div class="col-service col-sm-6 col-lg-4">
