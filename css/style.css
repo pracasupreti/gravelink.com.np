@@ -2482,6 +2482,10 @@ a.brand:focus{
   margin-bottom: 0;
 }
 
+.align{
+  text-align: justify;
+}
+
 .title-hr{
   width: 7rem;
   max-width: 100%;
