@@ -605,3 +605,25 @@
     years.forEach(year => year.innerHTML = new Date().getFullYear());
 
 })(jQuery);
+
+
+// popup
+// Get the popup notice element
+const popupNotice = document.querySelector('.popup-notice');
+      
+// Show the popup notice when the page loads
+window.addEventListener('load', () => {
+  popupNotice.style.display = 'flex';
+});
+
+// Close the popup notice when the close button is clicked
+document.querySelector('.close-popup').addEventListener('click', () => {
+  popupNotice.style.display = 'none';
+});
+
+// Close the popup notice when clicked outside the popup content
+document.addEventListener('click', (event) => {
+if (!event.target.closest('.popup-notice-content')) {
+popupNotice.style.display = 'none';
+}
+});
