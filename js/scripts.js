@@ -627,3 +627,8 @@ if (!event.target.closest('.popup-notice-content')) {
 popupNotice.style.display = 'none';
 }
 });
+
+// popup cross button 
+document.getElementById('close-button').addEventListener('click', function() {
+    document.getElementById('popup-notice').style.display = 'none';
+  });
