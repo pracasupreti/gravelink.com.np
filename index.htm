@@ -51,21 +51,27 @@
 <!-- Styles -->
 <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i%7CPoppins:300,400,500,600,700" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet" media="screen">
+
+<!-- roadblock  -->
+<link rel="stylesheet" href="https://sriyog.com/roadblock/roadblock.css">
+<script src="https://sriyog.com/roadblock/roadblock.js"></script>
+
 </head>
 <body>
 
-    <!-- The popup notice card -->
-<div class="popup-notice" id="popup-notice" style="z-index: 99999999;">
-  <div class="popup-notice-content">
-    <button type="button" class="close" aria-label="Close" id="close-button">
-      <span aria-hidden="true">&times;</span>
-    </button>
-      <p class="heading"><strong>SRIYOG | Professional Marketplace</strong></p>
-     <button class="close-popup"></button>
-    <img src="https://sriyog.com/images/popup/default.jpg" style="width: 100%; margin-top: -30px;">
-    <a href="https://bit.ly/sriyog" target="_blank"> <button type="button" class="btn btn-primary" style=" height: 37px; font-size: 11px; border-radius: 22px;">Download App</button></a>
-  </div>
-</div>
+  <!-- roadblock  -->
+  <div id="roadblock-wrap" class=" d-flex align-items-center justify-content-center roadblock " style="background-color: rgba(209, 213, 219, 1);">
+    <div>
+    <div class="position-relative shadow p-4 bg-white " style="border-radius: 2%;">
+    <p class="btn btn-danger rounded-circle roadblock_skip " onclick="skipAd(event)">X</p>
+    <a href="#" target="_blank" id="advertisementLink">
+    <img src="https://www.sriyog.com/roadblock/default.jpg" class="img-fluid rounded" style="border-radius: 3%; object-fit: contain!important; height: 500px!important; width: 500px!important;" alt="Advertisement">
+    </a>
+    </div>
+    </div>
+    </div>
+
+   
 
 
   
